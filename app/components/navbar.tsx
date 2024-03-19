@@ -22,9 +22,9 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="/films" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="/films" className="flex items-center hover:text-blue-500 transition-colors">
           Films
-        </Link>
+        </a>
       </Typography>
       <Typography
         as="li"

@@ -31,11 +31,6 @@ const config: Config = {
       "./app/**/*.{js,ts,jsx,tsx,mdx}",
       './node_modules/@my-company/tailwind-components/**/*.js',  
     ],
-    // safelist: [
-    //   'bg-red-500',
-    //   'text-3xl',
-    //   'lg:text-4xl',
-    // ],
   },
   theme: {
     extend: {
