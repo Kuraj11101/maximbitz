@@ -26,16 +26,71 @@ export default function Films() {
   <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="kunfupanda" src="images/kunfupand_4.jpg"
-          className="relative h-200 w-400 rounded-lg object-cover object-center" />
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
-    <div className="flex items-center">
+    <div>
         <br />
        <a href="#"> 
-            <h6 className="block place-items-center font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                Kunfu Panda 4
+            <h6 className="block justify-center text-center text-black place-items-center mb-2 text-base font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Kunfu Panda 4: 2024
             </h6>
         </a>
       </div>
+</div> 
+
+ <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+    <div className="flex place-items-center">
+        <img alt="candice" src="images/Bob_Marley_One_Love.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
+    </div>
+    <div>
+      <a href="#">
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Bob Marley - One Love: 2024
+        </h5>
+      </a>
+    </div>
+ </div>
+
+ <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+      <div className="flex place-items-center">
+        <img alt="candice" src="images/cabrini.jpg"
+          className="relative h-64 w-80 rounded-lg object-cover object-center" />
+      </div>
+      <br />
+      <a href="#">
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Cabrini: 2024
+        </h5>
+      </a>
+</div>
+
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+      <div className="flex place-items-center">
+        <img alt="candice" src="images/beekeeper.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
+      </div>
+      <br />
+      <a href="#">
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            The Beekeeper: 2024
+        </h5>
+      </a>
+</div>
+</div>
+
+<div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+      <div className="flex place-items-center">
+        <img alt="kunfupanda" src="images/Founders Day.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
+      </div>
+        <br />
+       <a href="#"> 
+            <h5 className="block justify-center place-items-center text-center mb-2 font-sans text-base  text-xl antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                Founders Day: 2024
+            </h5>
+        </a>
 </div> 
 
  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
@@ -152,53 +207,10 @@ export default function Films() {
 </div>
 
 <div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
-<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<div className="relative flex flex-col text-gray-400 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="kunfupanda" src="images/kunfupand_4.jpg"
-          className="relative h-200 w-400 rounded-lg object-cover object-center" />
-      </div>
-    <div className="flex items-center">
-        <br />
-       <a href="#"> 
-            <h6 className="block place-items-center font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                Kunfu Panda 4
-            </h6>
-        </a>
-      </div>
-</div> 
-
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
-    <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-1.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
-    </div>
-    <div>
-        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-            Deal III
-        </h5>
-    </div>
- </div>
-
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
-      <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-2.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
-      </div>
-</div>
-
-<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
-      <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-3.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
-      </div>
-</div>
-</div>
-
-<div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
-<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
-      <div className="flex place-items-center">
-        <img alt="kunfupanda" src="images/kunfupand_4.jpg"
-          className="relative h-200 w-400 rounded-lg object-cover object-center" />
+          className="relative h-48 w-96 rounded-lg object-fill object-center" />
       </div>
     <div className="flex items-center">
         <br />
