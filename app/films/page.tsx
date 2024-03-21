@@ -271,16 +271,28 @@ export default function Films() {
 
  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-2.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/The Lionheart.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
+      <br />
+    <div>
+        <h5 className="block justify-center text-center place-items-center mb-2 text-sm font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Lionheart: 2023
+        </h5>
+    </div>
 </div>
 
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-3.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/The Goldfinger.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
+      <br />
+    <div>
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Goldfinger: 2023
+        </h5>
+    </div>
 </div>
 </div>
 
