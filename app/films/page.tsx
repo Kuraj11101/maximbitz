@@ -31,7 +31,7 @@ export default function Films() {
     <div>
         <br />
        <a href="#"> 
-            <h6 className="block justify-center text-center text-black place-items-center mb-2 text-base font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            <h6 className="block justify-center text-center text-black place-items-center mb-2 text-base font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Kunfu Panda 4: 2024
             </h6>
         </a>
@@ -44,8 +44,9 @@ export default function Films() {
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
     </div>
     <div>
+      <br />
       <a href="#">
-        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             Bob Marley - One Love: 2024
         </h5>
       </a>
@@ -59,7 +60,7 @@ export default function Films() {
       </div>
       <br />
       <a href="#">
-        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             Cabrini: 2024
         </h5>
       </a>
@@ -72,7 +73,7 @@ export default function Films() {
       </div>
       <br />
       <a href="#">
-        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             The Beekeeper: 2024
         </h5>
       </a>
@@ -87,7 +88,7 @@ export default function Films() {
       </div>
         <br />
        <a href="#"> 
-            <h5 className="block justify-center place-items-center text-center mb-2 font-sans text-base  text-xl antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+            <h5 className="block justify-center place-items-center text-center mb-2 text-sm font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                 Founders Day: 2024
             </h5>
         </a>
@@ -95,141 +96,175 @@ export default function Films() {
 
  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
     <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-1.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/damsel.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
     </div>
+    <br />
     <div>
-        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-            Deal III
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Damsel: 2024
         </h5>
     </div>
  </div>
 
  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-2.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/Accidental Texan.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
+      <br />
+    <div>
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Accidental Texan: 2024
+        </h5>
+    </div>
 </div>
 
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-3.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/The Stolen Valley.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
+      <br />
+    <div>
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            The Stolen Valley: 2024
+        </h5>
+    </div>
 </div>
 </div>
 
 <div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="kunfupanda" src="images/kunfupand_4.jpg"
-          className="relative h-200 w-400 rounded-lg object-cover object-center" />
+        <img alt="demise" src="images/Demise.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
-    <div className="flex items-center">
         <br />
        <a href="#"> 
-            <h6 className="block place-items-center font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                Kunfu Panda 4
+            <h6 className="block justify-center text-sm place-items-center text-center font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                Demise: 2024
             </h6>
         </a>
-      </div>
 </div> 
 
  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
     <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-1.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/Parallel.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
     </div>
+    <br />
     <div>
-        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-            Deal III
+        <h5 className="block justify-center text-sm text-center place-items-center mb-2 font-sans antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Parallel: 2024
         </h5>
     </div>
  </div>
 
  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-2.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/The Bastard Sons.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
+      <br />
+    <div>
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            The Bastard Sons :2024
+        </h5>
+    </div>
 </div>
 
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-3.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/Sunrise.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
+      <br />
+    <div>
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Sunrise: 2024
+        </h5>
+    </div>
 </div>
 </div>
 
 <div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="kunfupanda" src="images/kunfupand_4.jpg"
-          className="relative h-200 w-400 rounded-lg object-cover object-center" />
+        <img alt="BlueBeatle" src="images/Blue Beatle.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
-    <div className="flex items-center">
         <br />
        <a href="#"> 
-            <h6 className="block place-items-center font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                Kunfu Panda 4
+            <h6 className="block place-items-center font-sans text-center text-sm text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                Blue Beatle: 2023
             </h6>
         </a>
-      </div>
 </div> 
 
  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
     <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-1.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/The Burial.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
     </div>
+    <br />
     <div>
-        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-            Deal III
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            The Burial: 2023
         </h5>
     </div>
  </div>
 
  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-2.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/Art of Love.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
+      <br />
+    <div>
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+          Art of Love: 2023
+        </h5>
+    </div>
 </div>
 
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-3.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/French Girl.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
+      <br />
+    <div>
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            French Girl: 2024
+        </h5>
+    </div>
 </div>
 </div>
 
 <div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
 <div className="relative flex flex-col text-gray-400 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
-        <img alt="kunfupanda" src="images/kunfupand_4.jpg"
-          className="relative h-48 w-96 rounded-lg object-fill object-center" />
+        <img alt="kunfupanda" src="images/Lisa Frankenstien.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
       </div>
-    <div className="flex items-center">
         <br />
        <a href="#"> 
-            <h6 className="block place-items-center font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                Kunfu Panda 4
+            <h6 className="block place-items-center font-sans text-center text-base antialiased text-sm font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                Lisa Frankenstein: 2024
             </h6>
         </a>
-      </div>
 </div> 
 
  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
     <div className="flex place-items-center">
-        <img alt="candice" src="https://docs.material-tailwind.com/img/face-1.jpg"
-          className="relative h-200 w-200 rounded-lg object-cover object-center" />
+        <img alt="candice" src="images/Frida.jpg"
+          className="relative h-64 w-80 rounded-lg object-fill object-center" />
     </div>
+    <br />
     <div>
-        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-            Deal III
+        <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Frida: 2024
         </h5>
     </div>
  </div>
