@@ -23,7 +23,8 @@ export default function Films() {
 </form>
 
 <div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
-  <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="/kunfupanda4">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="kunfupanda" src="images/kunfupand_4.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
@@ -37,23 +38,27 @@ export default function Films() {
         </a>
       </div>
 </div> 
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="/onelove">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
     <div className="flex place-items-center">
         <img alt="candice" src="images/Bob_Marley_One_Love.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
     </div>
     <div>
       <br />
-      <a href="#">
+      <a href="/onelove">
         <h5 className="block justify-center text-center place-items-center mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             Bob Marley - One Love: 2024
         </h5>
       </a>
     </div>
  </div>
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="/cabrini">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/cabrini.jpg"
           className="relative h-64 w-80 rounded-lg object-cover object-center" />
@@ -65,7 +70,9 @@ export default function Films() {
         </h5>
       </a>
 </div>
+</a>
 
+<a href="/beekeeper">
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/beekeeper.jpg"
@@ -78,9 +85,11 @@ export default function Films() {
         </h5>
       </a>
 </div>
+</a>
 </div>
 
 <div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
+<a href="/foundersday">
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="kunfupanda" src="images/Founders Day.jpg"
@@ -93,8 +102,10 @@ export default function Films() {
             </h5>
         </a>
 </div> 
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="/damsel">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
     <div className="flex place-items-center">
         <img alt="candice" src="images/damsel.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
@@ -106,8 +117,10 @@ export default function Films() {
         </h5>
     </div>
  </div>
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="/AccidentalTexan">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/Accidental Texan.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
@@ -119,7 +132,9 @@ export default function Films() {
         </h5>
     </div>
 </div>
+</a>
 
+<a href="/TheStolenValley">
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/The Stolen Valley.jpg"
@@ -132,9 +147,12 @@ export default function Films() {
         </h5>
     </div>
 </div>
+</a>
 </div>
 
 <div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
+
+<a href="/demise">
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="demise" src="images/Demise.jpg"
@@ -147,8 +165,10 @@ export default function Films() {
             </h6>
         </a>
 </div> 
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="/parallel">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
     <div className="flex place-items-center">
         <img alt="candice" src="images/Parallel.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
@@ -160,8 +180,10 @@ export default function Films() {
         </h5>
     </div>
  </div>
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="/TheBastardSons">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/The Bastard Sons.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
@@ -173,7 +195,9 @@ export default function Films() {
         </h5>
     </div>
 </div>
+</a>
 
+<a href="/Sunrise">
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/Sunrise.jpg"
@@ -186,9 +210,13 @@ export default function Films() {
         </h5>
     </div>
 </div>
+</a>
+
 </div>
 
+
 <div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
+<a href="#">
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="BlueBeatle" src="images/Blue Beatle.jpg"
@@ -201,8 +229,10 @@ export default function Films() {
             </h6>
         </a>
 </div> 
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="#">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
     <div className="flex place-items-center">
         <img alt="candice" src="images/The Burial.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
@@ -214,8 +244,10 @@ export default function Films() {
         </h5>
     </div>
  </div>
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="#">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/Art of Love.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
@@ -227,7 +259,9 @@ export default function Films() {
         </h5>
     </div>
 </div>
+</a>
 
+<a href="#">
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/French Girl.jpg"
@@ -240,9 +274,12 @@ export default function Films() {
         </h5>
     </div>
 </div>
+</a>
 </div>
 
 <div className="flex-col-1 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"> 
+
+<a href="#">
 <div className="relative flex flex-col text-gray-400 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="kunfupanda" src="images/Lisa Frankenstien.jpg"
@@ -255,8 +292,10 @@ export default function Films() {
             </h6>
         </a>
 </div> 
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="#">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
     <div className="flex place-items-center">
         <img alt="candice" src="images/Frida.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
@@ -268,8 +307,10 @@ export default function Films() {
         </h5>
     </div>
  </div>
+</a>
 
- <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
+<a href="#">
+<div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/The Lionheart.jpg"
           className="relative h-64 w-80 rounded-lg object-fill object-center" />
@@ -281,7 +322,9 @@ export default function Films() {
         </h5>
     </div>
 </div>
+</a>
 
+<a href="#">
 <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl bg-clip-border">
       <div className="flex place-items-center">
         <img alt="candice" src="images/The Goldfinger.jpg"
@@ -294,9 +337,12 @@ export default function Films() {
         </h5>
     </div>
 </div>
+</a>
+
+
 </div>
 
 
-        </main>
+</main>
     )
 }

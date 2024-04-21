@@ -38,6 +38,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          "pagedwn1-pattern": "url('/images/kunfupand_4.jpg')",
       },
       screens:{
         'tablet': '640px',
